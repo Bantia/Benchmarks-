@@ -17,7 +17,7 @@ Ce dépôt accompagne un projet de recherche visant à **évaluer les performanc
 
 - `QFT.ipynb` : Benchmarks et analyses pour la Transformée de Fourier Quantique (QFT).
 - `Grover's_Search.ipynb` : Benchmarks et analyses pour l’algorithme de recherche de Grover.
-- `Hamiltonien.ipynb` : (Si inclus) Simulation de circuits Hamiltoniens pour évaluation complémentaire.
+- `Hamiltonien.ipynb` : Simulation de circuits Hamiltoniens pour évaluation complémentaire.
 - `README.md` : Ce fichier, présentant le contexte et les résultats clés du projet.
 
 ## Résumé méthodologique
@@ -47,8 +47,8 @@ Ce dépôt accompagne un projet de recherche visant à **évaluer les performanc
 ## Reproduire les résultats
 
 1. **Prérequis**
-   - Python 3.8+
-   - Qiskit (`pip install qiskit`)
+   - Python 
+   - Qiskit 
    - Accès à IBM Quantum Experience pour l’exécution sur Sherbrooke (ou autre backend réel)
 
 2. **Ouvrir les notebooks**
@@ -60,22 +60,10 @@ Ce dépôt accompagne un projet de recherche visant à **évaluer les performanc
 
 ## Références clés
 
-- T. Lubinski et al., _Application-oriented performance benchmarks for quantum computing_, arXiv:2110.03137, 2022.
-- IBM Quantum [Quantum Volume](https://research.ibm.com/blog/quantum-volume-64)
+- T. Lubinski et al., _Application-oriented performance benchmarks for quantum computing_.
 - Documentation Qiskit : https://qiskit.org/documentation/
 
 ## Pour aller plus loin
 
 - Les circuits exécutés sont disponibles dans les notebooks et en annexe du rapport PDF.
 - Possibilités d’étendre l’étude à d’autres benchmarks (Hamiltonien, circuits aléatoires) et backends (ion trap, photonique).
-
----
-
-<div align="center">
-
-[![Licence](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)  
-[![Qiskit](https://img.shields.io/badge/Qiskit-Enabled-blueviolet?logo=Qiskit)](https://qiskit.org/)  
-[![IBM Quantum](https://img.shields.io/badge/Backend-IBM_Sherbrooke-lightgrey?logo=IBM)](https://quantum-computing.ibm.com/)  
-
-</div>
-
